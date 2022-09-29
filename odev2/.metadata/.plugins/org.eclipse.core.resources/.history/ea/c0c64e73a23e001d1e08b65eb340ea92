@@ -1,0 +1,54 @@
+package classesWithAttributies;
+
+public class Product {
+
+	// Class'ın bir diğer özelliği de özellik barınıdrmasıdır.
+	// attribute field da denilir
+
+	// Veri tiplerinin önüne private yazarsam sadece tanımlandığı blokta geçerli
+	// olur başka classlardan erişemezsin.
+
+	private int _id; // aynı türde değer verilebilir
+	private String _name;
+	private String _description;					//	_description'a sağ tıkla => refactor=> encapulate
+	private double _price;
+	private int _stockAmount;
+	private String _renk;
+	private String _kod;
+
+	// getter
+	public int getId() {
+		return _id;
+		// bu getId ile bunu okuyabilir demek yazamaz am aokuyabilir
+	}
+
+	// setter
+	public void setId(int id) {													
+		_id = id;
+	}
+	// isimlendirme standartı get ve setle başlar
+	// this.id = id; //this bu class demek productın id'si eşittir bu id ======> bu
+	// kötü bir yazım(bunu kullanırken alt çizgiler yok
+	// bunu yapmaktansa id'leri karıştırmamak için onların önüne alt çizgi koyduk
+	// alt çizgi ile olnalar field buna alışacaksın zamanla
+
+	private String get_name() {
+		return _name;
+	}
+
+	private void set_name(String _name) {
+		this._name = _name;
+	}
+
+	private String get_description() {
+		return _description;
+	}
+
+	private void set_description(String _description) {
+		this._description = _description;
+	}
+
+	// Veri tiplerinin önüne private yazarsam sadece tanımlandığı blokta geçerli olur başka classlardan erişemezsin.
+	 
+
+}

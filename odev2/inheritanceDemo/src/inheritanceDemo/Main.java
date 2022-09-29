@@ -1,0 +1,15 @@
+// https://www.youtube.com/watch?v=N6Na8LLl-OQ&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=40&ab_channel=EnginDemiro%C4%9F
+
+package inheritanceDemo;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		KrediUI krediUI = new KrediUI();
+		krediUI.krediHesapla(new AskerKrediManager());  //içe yazdığımız new ile bellekte bu örneği oluştur diyoruz
+														//Burada artık istersen OgretmenKrediManager istersen tarim istediğini çalıştırır
+		
+	}
+
+}
+//tüm bu yaptıklarımız aslında polimorfizm yapısı

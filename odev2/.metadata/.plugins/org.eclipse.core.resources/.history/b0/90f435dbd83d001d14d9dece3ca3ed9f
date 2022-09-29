@@ -1,0 +1,26 @@
+package methods2;
+
+//Ekranda bir şey yazması o fonksiyonun ekrana bir şey döndürdüğü anlamına gelmiyor
+//substring bir değer return ediyor
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugün hava çok güzel";
+		String yeniMesaj = mesaj.substring(0, 2);
+		//String yeniMesaj = ekle() dersem çalışmaaz çünkü mesaj string bizden string bir şey vermemiz bekleniyor ama void olan bir operasyon verdik olmaz
+		System.out.println(yeniMesaj);
+	}
+
+	public static void ekle() {
+
+	}
+
+	public static void sil() {
+
+	}
+
+	public static void güncelle() {
+
+	}
+
+}

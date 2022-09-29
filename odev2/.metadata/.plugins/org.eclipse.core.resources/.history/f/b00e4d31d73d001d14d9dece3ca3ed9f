@@ -1,0 +1,23 @@
+package methods2;
+
+//Ekranda bir şey yazması o fonksiyonun ekrana bir şey döndürdüğü anlamına gelmiyor
+
+ public class Main {
+
+	public static void main(String[] args) {
+		String mesaj ="Bugün hava çok güzel";
+		String yeniMesaj="mesaj.substring(0,2)";
+		System.out.println(yeniMesaj);
+	}
+	public static void ekle() {
+		
+	}
+	public static void sil() {
+		
+	}
+	public static void güncelle() {
+		
+	}
+	
+	
+}

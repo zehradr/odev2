@@ -1,0 +1,12 @@
+package inheritance;
+
+public class Main {
+
+	Customer customer = new Customer();
+	Employee employee = new Employee(); // böylece temel inheritance'ı oluşturduk
+	
+	
+	EmployeeManager employeeManager = new EmployeeManager();
+	CustomerManager customerManager = new CustomerManager();
+	
+}

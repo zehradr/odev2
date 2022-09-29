@@ -1,0 +1,20 @@
+package classesWithAttributies;
+
+//Class'ın bir diğer özelliği de özellik barınıdrmasıdır.
+//attribute field da denilir
+public class Product {
+	private int id;							//aynı türde değer verilebilir
+	private String name;
+	private String description;
+	private double price;
+	private int stockAmount;
+	private String renk;
+}
+
+//Veri tiplerinin önüne private yazarsam sadece tanımlandığı blokta geçerli olur başka classlardan erişemezsin.
+
+	public int get
+
+
+
+

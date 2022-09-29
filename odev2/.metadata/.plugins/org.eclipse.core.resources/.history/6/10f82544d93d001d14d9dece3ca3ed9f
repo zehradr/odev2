@@ -1,0 +1,41 @@
+package methods2;
+
+//Ekranda bir şey yazması o fonksiyonun ekrana bir şey döndürdüğü anlamına gelmiyor
+//substring bir değer return ediyor
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugün hava çok güzel";
+		String yeniMesaj = mesaj.substring(0, 2);
+		
+		//String yeniMesaj = topla(); dersem yine hatalı çünkü topla integer döndürüyor ama bize String gerekli (28-29 için)
+		//String yeniMesaj = ekle() dersem çalışmaaz çünkü mesaj string bizden string bir şey vermemiz bekleniyor ama void olan bir operasyon verdik olmaz
+		//String yenimesaj= sehirVer(); dersem bu çalışır çünkü neden sehirVer string döndürüyor o da Ankarayı döndürüyor
+		System.out.println(yeniMesaj);
+	}
+
+	public static void ekle() {
+		System.out.println("Eklendi");
+	}
+
+	public static void sil() {
+		System.out.println("Silindi");
+		//return; eklersem bu metodu bitir demek ama aşağıdaki fonksiyonda return döndür demek
+	}
+
+	public static void güncelle() {
+		System.out.println("Güncellendi");
+	}
+	//aşağıdaki fonksiyon int türünde bir değer döndürür demek
+	public static int topla() {
+		return 5;
+		
+	}
+	public static String sehirVer() {
+		return "Ankara";
+		
+	}
+	
+	
+	
+}

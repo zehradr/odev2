@@ -1,0 +1,11 @@
+package classesWithAttributies;
+
+//Class'ın bir diğer özelliği de özellik barınıdrmasıdır.
+
+public class Product {
+	int id;							//aynı türde değer verilebilir
+	String name;
+	String description;
+	double price;
+	int stockAmount;
+}

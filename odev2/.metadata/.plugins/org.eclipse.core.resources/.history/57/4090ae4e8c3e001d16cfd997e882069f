@@ -1,0 +1,24 @@
+package classes;
+
+//Class'ların ana kurallarından birisi gruplama yapıyor olmasıdır
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//bir class'ı kullanabilmek için onun new'lenmiş olması gerekeiyor
+		//new deyince heap'te ondan bir nesne oluşturuyor
+		
+		CustomerManager customerManager = new CustomerManager();
+		CustomerManager customerManager2 = new CustomerManager();
+		customerManager = customerManager2;
+		
+		//bunu dedikten sonra artık customerManager'ın referans numarası eşittir customerManager2'nun referans numarası olmuş oluyor
+		
+		customerManager.Add();
+		customerManager.Remove();
+		customerManager.Update();
+	}
+
+
+}

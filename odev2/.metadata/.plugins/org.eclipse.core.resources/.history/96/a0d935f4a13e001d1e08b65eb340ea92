@@ -1,0 +1,14 @@
+package classesWithAttributies;
+
+public class ProductData {
+	public int _id;
+	public String _name;
+	public String _description;
+	public double _price;
+	public int _stockAmount;
+	public String _renk;
+	public String _kod;
+
+	public ProductData() {
+	}
+}

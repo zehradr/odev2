@@ -1,0 +1,10 @@
+package reCampDemo_Classes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		DortIslem dortıslem = new DortIslem();
+		int sonuc = dortIslem.Topla(3,8); 
+	}
+
+}

@@ -1,0 +1,25 @@
+package methods;
+//https://www.youtube.com/watch?v=XsIJn8pjdOM&list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8&index=25&ab_channel=EnginDemiro%C4%9F
+public class Main {
+
+	public static void main(String[] args) {
+		int[] sayilar = new int[]{1,2,5,7,9,0};
+		int aranacak = 6;
+		boolean varMi = false;
+		
+		for (int sayi : sayilar) {
+			if(sayi == aranacak){
+				varMi = true;
+				break;
+			}
+		}
+		
+		if(varMi) {
+			System.out.println("Sayı mevcuttur");
+		}else {
+			System.out.println("Sayı mevcut değildir");
+		}
+			
+			
+	}
+}
